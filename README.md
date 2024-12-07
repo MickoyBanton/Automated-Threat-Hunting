@@ -65,8 +65,8 @@ print(f"Predicted action: {action}")
 
 3. Replace test_data with the actual input features you want to classify.
 
-Model Explanation
+# Model Explanation
 The model observes a 20-dimensional feature space and takes actions (benign or malicious) based on its policy. It was trained on simulated network traffic with reward signals incentivizing correct classifications.
 
-Contributions
+# Contributions
 Feel free to open issues or submit pull requests to improve this project!
