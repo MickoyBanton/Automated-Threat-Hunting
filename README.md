@@ -5,6 +5,11 @@ This repository implements a Deep Q-Learning model to identify malicious network
 # Dataset: ALLFLOWMETER_HIKARI2021
 
 The ALLFLOWMETER_HIKARI2021 dataset contains labeled network traffic samples, making it an ideal resource for training and testing anomaly detection algorithms. It includes features like flow duration, packet sizes, and byte rates, along with corresponding labels indicating malicious or benign activity.  
+  
+To download this csv file go to 
+```
+https://zenodo.org/records/6463389
+```
 
 # Features
 
@@ -28,7 +33,6 @@ pip install -r requirements.txt
 
 # Files in the Repository
 - traffic_dqn_model.zip: Pre-trained DQN model for detecting malicious traffic.
-- ALLFLOWMETER_HIKARI2021.csv: The dataset used to train the model.
 - Automated_Threat_Hunting.ipynb: Script for training the DQN model.
 - test_model.ipynb: Script showing an example of how to test the model model on new data.
 - README.md: Project documentation (this file).
