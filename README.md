@@ -42,7 +42,7 @@ To use the pre-trained model without creating an environment:
 
 1. Clone this repository:
 ```
-git clone https://github.com/MickoyBanton/Automated-Threat-Hunting.git <br>
+git clone https://github.com/MickoyBanton/Automated-Threat-Hunting.git
 ```
 ```
 cd Automated-Threat-Hunting
